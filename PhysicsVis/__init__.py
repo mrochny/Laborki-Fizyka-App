@@ -6,4 +6,4 @@ class PhysicsVisualizer:
     math_engine: dv = dv()
 
     def __init__(self):
-        self.math_engine.showGraph()
+        self.math_engine.debug_seed_random_data()
