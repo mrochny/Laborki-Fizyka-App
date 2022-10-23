@@ -1,6 +1,10 @@
-from PhysicsVis.driver.DataVisualizer import DataVisualizer as dv
+
+from PhysicsVis.user_interface.UserInterface import UI
 
 
 class PhysicsVisualizer:
 
-    math_engine: dv = dv()
+    interface: UI
+
+    def __init__(self):
+        self.interface = UI()

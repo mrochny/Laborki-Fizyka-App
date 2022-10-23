@@ -7,7 +7,7 @@ class DataVisualizer:
     data_y: np.ndarray
 
 
-    def showGraph(self):
+    def show_graph(self):
         fig, ax = plt.subplots()
         ax.stem(self.data_x, self.data_y)
         plt.show()
